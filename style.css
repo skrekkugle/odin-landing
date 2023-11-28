@@ -4,35 +4,21 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
+}
+
+/* Border på alle divs for å se enklere */
+div {
+    border: solid 1px black;
 }
 
 .header {
-    background-color: dimgray;
-    display: flex;
-    justify-content: center;
-}
-
-.container {
-    background-color: dimgray;
+    background-color: #1f2937;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    height: 300px;
 }
 
-.menu {
-    background-color: rgb(192, 187, 187);
-    display: flex;
-    flex-shrink: 0;
-}
-
-.content {
-    background-color: rgb(201, 76, 76);
-}
-
-.footer {
-    background-color: dimgray;
-    display: flex;
-    justify-content: center;
+#herotext {
+    font-size: 48px;
+    color: #f9faf8;
 }
